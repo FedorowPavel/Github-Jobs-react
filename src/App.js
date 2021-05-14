@@ -1,10 +1,10 @@
-import logo from './logo.svg';
 import './App.css';
+import Layout from "./hoc/Layout";
 
 function App() {
   return (
-    <div className="App">
-      <h1>GitHub Jobs</h1>
+    <div className="wrapper">
+      <Layout/>
     </div>
   );
 }
